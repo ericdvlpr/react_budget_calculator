@@ -1,11 +1,10 @@
 import React from 'react'
-
+import {MdSend} from 'react-icons/md';
 const ExpenseForm = () => {
-    return (
-        <div>
+    return <form>
             Expense form
-        </div>
-    )
+    </form>
+    
 }
 
 export default ExpenseForm
